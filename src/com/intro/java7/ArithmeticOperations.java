@@ -1,4 +1,4 @@
-package com.java7;
+package com.intro.java7;
 
 
 public interface ArithmeticOperations{

@@ -1,7 +1,8 @@
-package com.java8;
+package com.intro.java8;
 
 
-import com.java7.ArithmeticOperations;
+
+import com.intro.java7.ArithmeticOperations;
 
 import java.util.Arrays;
 import java.util.List;
@@ -30,6 +31,6 @@ public class Java8Demo {
         list.forEach((Integer i)-> {System.out.println(i);});
         list.forEach((i)-> {System.out.println(i);});
         list.forEach(i-> {System.out.println(i);});
-        list.forEach(System.out::println);
+//        list.forEach(System.out::println);
     }
 }
