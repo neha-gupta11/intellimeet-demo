@@ -24,6 +24,6 @@ c.tld
 fmt.tld
 # IntelliJ IDEA files below
 *.iml
-.idea/
+/.idea/
 .sass-cache/
 /bin/
