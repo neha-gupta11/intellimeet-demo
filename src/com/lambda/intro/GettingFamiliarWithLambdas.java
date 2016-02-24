@@ -1,8 +1,5 @@
 package com.lambda.intro;
 
-
-import com.intro.java7.ArithmeticOperations;
-
 public class GettingFamiliarWithLambdas {
 
     public static void main(String[] args) {
@@ -46,7 +43,7 @@ public class GettingFamiliarWithLambdas {
     }
 
     static void returningAsFunction(){
-        
+
     }
 }
 
