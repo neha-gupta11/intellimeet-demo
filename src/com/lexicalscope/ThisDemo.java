@@ -5,6 +5,8 @@ public class ThisDemo {
     Integer integer = 1;
 
     void innerClassMethod() {
+
+        Integer integer = 3;
         Consumer innerClass = new Consumer() {
             Integer integer = 2;
 
@@ -17,7 +19,7 @@ public class ThisDemo {
 
     void lambdaMethod() {
         Consumer lambda = () -> {
-            System.out.println("From lambda " + this.integer);
+            System.out.println("From lambda " + this.integer);      //refering to context of thisDemo
         };
         lambda.display();
     }
