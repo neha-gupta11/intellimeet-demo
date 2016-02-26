@@ -3,6 +3,7 @@
 .project
 test/data
 web-app/gwt
+*.xml
 *.iws
 *Db.properties
 *Db.script
